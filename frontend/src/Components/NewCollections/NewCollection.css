@@ -1,0 +1,55 @@
+.new-collections h1{
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+margin-top: 4vw;
+margin-bottom: 1vw;
+}
+.new-collections hr{
+   position: absolute;
+   right: 44vw;
+    color: black;
+    height: 0.3vw;
+    width: 12vw;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.collections{
+    padding-top: 3vw;
+    margin: 0 7vw;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    margin-top: 3vw ;
+    gap: 4vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width:670px) {
+    .collections{
+
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       align-items:  center;
+       justify-content: center;
+       margin: 5vw;
+       justify-items: center;
+
+      
+}
+}
+@media (max-width:400px) {
+    .collections{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       align-items: center;
+       justify-content: center;
+       margin: 5vw;
+       
+       justify-items: center;
+
+      
+}
+}

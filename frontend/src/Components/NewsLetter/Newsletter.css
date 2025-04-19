@@ -1,0 +1,85 @@
+.newsletter{
+    background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+    height: 30vw;
+    padding: 2vw;
+    margin: 5vw;
+}
+
+.newsletter h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.7vw;
+    margin: 2vw;
+}
+
+.newsletter p{
+    text-align: center;
+    color: rgb(59, 58, 58);
+}
+
+.news-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-search input{
+    border: 1px solid black;
+    border-radius: 2vw;
+    padding: 1vw;
+    padding: 0.8vw 14vw;
+    margin-top: 3vw;
+    position: relative;
+}
+.news-search button{
+    border: 1px solid black;
+    border-radius: 2vw;
+    margin-top: 3vw;
+    padding: 0.8vw 5vw;
+    background-color: black;
+    color: white;
+    position: absolute;
+left: 63vw;
+} 
+
+@media (max-width:660px) {
+    .newsletter{
+        background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+        height: 25vw;
+        padding: 1vw;
+        margin: 5vw;
+    }
+    .newsletter h1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 2.3vw;
+        margin: 2vw;
+    }
+    .newsletter p{
+        text-align: center;
+        color: rgb(59, 58, 58);
+        font-size: 2.3vw;
+    }
+    
+.news-search input{
+    border: 1px solid black;
+    border-radius: 2vw;
+    font-size: 2vw;
+    padding: 1vw;
+    padding: 0.5vw 10vw;
+    margin-top: 3vw;
+    position: relative;
+}
+.news-search button{
+    border: 1px solid black;
+    border-radius: 2vw;
+    margin-top: 3vw;
+    padding: 0.5vw 4vw;
+    background-color: black;
+    font-size: 2vw;
+    color: white;
+    position: absolute;
+left: 63vw;
+} 
+    
+}

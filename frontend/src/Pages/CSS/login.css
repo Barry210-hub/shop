@@ -1,0 +1,195 @@
+.login{
+    height: 100%;
+    width: 100%;
+    background:   linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+    padding-top: 100px;
+}
+.login_exp{
+    background-color: rgba(237, 221, 221, 0.692);
+    width: 36vw;
+    /* height: ; */
+    margin: auto;
+    padding: 40px 60px;
+ box-shadow: 0px 1px 3px -2px black;
+    /* margin-top: 10vw; */
+    margin-bottom: 4vw;
+}
+.login-expl span{
+    cursor: pointer;
+}
+
+.login_exp h1{
+    font-weight: bold;
+    font-size: large;
+}
+.inputs{
+    margin: 2vw 0vw;
+    display: flex;
+flex-direction: column;
+gap: 2vw;
+}
+.inputs input{
+    padding: 1vw;
+border: 1px solid rgb(180, 171, 171);
+}
+
+.btn-login{
+    background-color: orangered;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw 10.5vw;
+}
+.login-expl{
+    display: flex;
+    align-items: center;
+    margin:  1vw 0px;
+
+}
+.login-expl p{
+    font-size: small;
+    color: rgb(68, 64, 64);
+}
+.login-expl span{
+    font-size: small;
+    color: orangered;
+}
+
+.login-policy{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+  
+}
+
+.login-policy p{
+    font-size: small;
+    margin-top: 1vw;
+    color: rgb(57, 55, 55);
+}
+
+
+@media (max-width:1144px) {
+    .login{
+        height: 100%;
+        width: 100%;
+        background:   linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+        padding-top: 100px;
+    }
+    .login_exp{
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: center;
+        background-color: rgba(237, 221, 221, 0.692);
+        width: 36vw;
+        /* height: ; */
+        /* margin: 9vw 28vw;
+        padding: 40px 60px; */
+     box-shadow: 0px 1px 3px -2px black;
+        /* margin-top: 10vw; */
+        margin-bottom: 4vw;
+    }
+
+}
+
+@media (max-width:940px) {
+    .login{
+        height: 100%;
+        width: 100%;
+        background:   linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+        padding-top: 100px;
+    }
+    .login_exp{
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: center;
+        background-color: rgba(237, 221, 221, 0.692);
+        width: 40vw;
+      
+     box-shadow: 0px 1px 3px -2px black;
+        /* margin-top: 10vw; */
+        margin-bottom: 4vw;
+    }
+
+}
+@media (max-width:860px) {
+    .login{
+        height: 100%;
+        width: 100%;
+        background:   linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+        padding-top: 100px;
+    }
+    .login_exp{
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: center;
+        background-color: rgba(237, 221, 221, 0.692);
+        width: 60vw;
+      
+     box-shadow: 0px 1px 3px -2px black;
+        /* margin-top: 10vw; */
+        margin-bottom: 4vw;
+    }
+
+}
+@media (max-width:500px) {
+    .login{
+        height: 100%;
+        width: 100%;
+        background:   linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+        padding-top: 100px;
+    }
+    .login_exp{
+        display: flex;
+        flex-direction: column;
+        padding: 8vw 5vw;
+        justify-content: center;
+        background-color: rgba(237, 221, 221, 0.692);
+        width: 80vw;
+      
+     box-shadow: 0px 1px 3px -2px black;
+        /* margin-top: 10vw; */
+        margin-bottom: 4vw;
+    }
+
+
+}
+@media (max-width:400px) {
+    .login{
+        height: 100%;
+        width: 100%;
+        background:   linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+        padding-top: 100px;
+    }
+    .login_exp{
+        display: flex;
+        flex-direction: column;
+       padding: 8vw 5vw;
+        justify-content: center;
+        background-color: rgba(237, 221, 221, 0.692);
+        width: 80vw;
+      
+     box-shadow: 0px 1px 3px -2px black;
+        /* margin-top: 10vw; */
+        margin-bottom: 4vw;
+    }
+    .login-expl{
+        display: flex;
+        align-items: center;
+        margin:  1vw 0px;
+    
+    }
+    .login-expl p{
+        font-size: small;
+        color: rgb(68, 64, 64);
+    }
+    .login-expl span{
+        font-size: small;
+        color: orangered;
+    }
+
+}

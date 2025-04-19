@@ -1,0 +1,213 @@
+.offers{
+   
+        height: 60vh;
+        width: 65%;
+        background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0px 140px;
+        margin-bottom: 150px;
+        gap: 9vw;
+    
+}
+.offerinfo h1{
+    font-weight: bold;
+    font-size: 3vw;
+
+}
+.offerinfo p{
+    font-weight: bold;
+    font-size: small;
+    color: rgb(58, 56, 56);
+}
+.model img{
+    height: 22vw;
+}
+
+.offer-btn{
+    background-color: rgba(239, 53, 53, 0.841);
+    padding: 0.6vw;
+    border-radius: 2vw;
+   padding-left: 4vw;
+   padding-right: 4vw;
+   margin-top: 2vw;
+} 
+
+@media (max-width:900px) {
+    .offers{
+   
+        height: 60vh;
+        width: 65%;
+        background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0px 110px;
+        margin-bottom: 150px;
+        gap: 7vw;
+    
+}
+}
+
+@media (max-width:814px) {
+    .offers{
+   
+        height: 60vh;
+        width: 65%;
+        background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0px 10vw;
+        margin-bottom: 150px;
+        gap: 7vw;
+    
+}
+}
+
+@media (max-width:814px) {
+    .offers{
+   
+        height: 60vh;
+        width: 75%;
+        background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0px 8vw;
+        margin-bottom: 8vw;
+        gap: 7vw;
+    
+}
+.model img{
+    height: 30vw;
+}
+}
+
+@media (max-width:500px) {
+    .offers{
+   
+        height: 50vh;
+        width: 75%;
+        background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0px 8vw;
+        margin-bottom: 8vw;
+        gap: 7vw;
+    
+}
+.model img{
+    height: 36vw;
+}
+
+.offerinfo h1{
+    font-weight: bold;
+    font-size: 2.7vw;
+    
+}
+.offerinfo p{
+    font-weight: bold;
+    font-size: 2.6vw;
+    color: rgb(58, 56, 56);
+}
+.offer-btn{
+    background-color: rgba(239, 53, 53, 0.841);
+    padding: 0.6vw;
+    font-size: 2.6vw;
+    border-radius: 2vw;
+   padding-left: 4vw;
+   padding-right: 4vw;
+   margin-top: 2vw;
+} 
+
+}
+
+
+@media (max-width:370px) {
+    .offers{
+   
+        height: 40vh;
+        width: 75%;
+        background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0px 8vw;
+        margin-bottom: 8vw;
+        gap: 7vw;
+    
+}
+.model img{
+    height: 36vw;
+}
+
+.offerinfo h1{
+    font-weight: bold;
+    font-size: 2.7vw;
+    
+}
+.offerinfo p{
+    font-weight: bold;
+    font-size: 2.6vw;
+    color: rgb(58, 56, 56);
+}
+.offer-btn{
+    background-color: rgba(239, 53, 53, 0.841);
+    padding: 0.6vw;
+    font-size: 2.6vw;
+    border-radius: 2vw;
+   padding-left: 4vw;
+   padding-right: 4vw;
+   margin-top: 2vw;
+} 
+
+}
+@media (max-width:370px) {
+    .offers{
+   
+        height: 30vh;
+        width: 75%;
+        background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0px 8vw;
+        margin-bottom: 8vw;
+        gap: 7vw;
+    
+}
+.model img{
+    height: 46vw;
+}
+
+.offerinfo h1{
+    font-weight: bold;
+    font-size: 2.7vw;
+    
+}
+.offerinfo p{
+    font-weight: bold;
+    font-size: 2.6vw;
+    color: rgb(58, 56, 56);
+}
+.offer-btn{
+    background-color: rgba(239, 53, 53, 0.841);
+    padding: 0.6vw;
+    font-size: 2.6vw;
+    border-radius: 2vw;
+   padding-left: 4vw;
+   padding-right: 4vw;
+   margin-top: 2vw;
+} 
+
+}

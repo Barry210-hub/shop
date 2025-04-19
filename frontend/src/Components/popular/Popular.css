@@ -1,0 +1,50 @@
+.popular h1{
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+margin-top: 4vw;
+margin-bottom: 1vw;
+}
+.popular hr{
+   position: absolute;
+   right: 44vw;
+    color: black;
+    height: 0.3vw;
+    width: 12vw;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.product-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    margin: 5vw;
+}
+
+@media (max-width:670px) {
+    .product-item{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       align-items: center;
+       justify-content: center;
+       margin: 5vw;
+       justify-items: center;
+
+      
+}
+}
+@media (max-width:400px) {
+    .product-item{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       align-items: center;
+       justify-content: center;
+       margin: 5vw;
+       
+       justify-items: center;
+
+      
+}
+}

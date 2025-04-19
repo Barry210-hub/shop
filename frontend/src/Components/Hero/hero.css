@@ -1,0 +1,130 @@
+/* .hero{
+    height: 100vh;
+    background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+    /* display: flex; */
+    /* padding: 10vw; */
+    /* padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw; */
+    /* display: flex;
+
+} */
+
+
+.hero-exp {
+    height: 100vh;
+    background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space elements evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 5vw; /* Adjust gap for smaller screens */
+    width: 100%; /* Full width */
+padding-left: 4vw;
+padding-right:4vw;
+}
+
+.img-model {
+    height: 50vw;
+    max-height: 500px; /* Limit max height */
+    width: auto; /* Keep aspect ratio */
+}
+
+.f-exp {
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+.hero-txt li p {
+    font-weight: bold;
+    font-size: 4vw; /* Responsive font size */
+}
+
+.hand-exp {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.hands {
+    height: 5vw;
+}
+
+.btn {
+    display: flex;
+    background-color: rgb(219, 68, 68);
+    border-radius: 2vw;
+    padding: 1vw;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 2vw;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 640px) {
+    .f-exp {
+        font-size: 4vw; /* Adjusted font size */
+    }
+    .btn {
+        font-size: 3vw; /* Adjusted button font size */
+    }
+    .btn img {
+        height: 3vw; /* Adjusted button image size */
+    }
+    .img-model {
+        height: 60vw; /* Responsive image size */
+        width: auto; /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 580px) {
+    .model-img {
+        display: none; /* Hide image on very small screens */
+    }
+    .hero-exp {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items */
+        justify-content: center; /* Center vertically */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
+    }
+    .f-exp {
+        font-size: 5vw; /* Larger font for very small screens */
+    }
+    .hand-exp p {
+        font-size: 22vw; /* Large font size for smaller screens */
+    }
+    .btn {
+        font-size: 2.6vw; /* Adjusted button font size */
+    }
+    .btn img {
+        height: 3vw; /* Adjusted button image size */
+    }
+}
+
+@media (max-width: 400px) {
+    .model-img {
+        display: none; /* Hide image on very small screens */
+    }
+    .hero-exp {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items */
+        justify-content: center; /* Center vertically */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
+    }
+    .f-exp {
+        font-size: 8vw; /* Larger font for very small screens */
+    }
+
+    .hand-exp p {
+        font-size: 30vw; /* Large font size for smaller screens */
+    }
+    .btn {
+        font-size: 4vw; /* Adjusted button font size */
+    }
+    .btn img {
+        height: 3vw; /* Adjusted button image size */
+    }
+}

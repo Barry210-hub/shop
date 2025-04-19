@@ -1,0 +1,25 @@
+.breadcrum{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    font-size: small;
+    color: rgb(77, 72, 72);
+    padding: 3vw 8vw;
+}
+.breadcrum img{
+    height: 1vw;
+}
+
+@media (max-width:630px) {
+    .breadcrum{
+        display: flex;
+        align-items: center;
+        gap: 0.5vw;
+        font-size: 2vw;
+        color: rgb(77, 72, 72);
+        padding: 3vw 8vw;
+    }
+    .breadcrum img{
+        height: 2vw;
+    }
+}

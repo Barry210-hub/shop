@@ -1,0 +1,132 @@
+.nav{
+  
+        
+        box-shadow: 0px 1px 3px -2px black;
+   
+}
+
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    margin-top: -44px;
+    margin-left: 29px;
+    border-radius: 11px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+ position: absolute;
+  
+
+}
+.nav-dropdown{
+        display: none;
+}
+.hello{
+        font-size: 3vw;
+}
+
+@media (max-width:790px) {
+        .level{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        }
+        .nav-dropdown{
+                display: flex;
+              height: 5vw;
+                position: relative;
+                rotate: 260deg;
+        }
+        .open{
+rotate: 0deg;
+        }
+        .navbar-main{
+                display: none;
+        }
+        .nav-menu-visible{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                position: absolute;
+                /* top: 10vw; */
+                padding: 1.2vw;
+                margin-top: 16vw;
+        }
+.levelonw{
+        padding: 2vw;
+}
+.leveltwo{
+        height: 5vw;
+}
+
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2vw;
+    height: 2vw;
+    /* margin-top: ;
+    margin-left: 29px; */
+    border-radius: 11px;
+    font-size: 1.4vw;
+    background-color: red;
+    color: white;
+ position: absolute;
+ margin-top: -5vw;
+ margin-left: 4vw;
+  
+
+}
+}
+
+
+
+
+@media (max-width:580px) {
+        .logo-navbar img{
+                height: 14vw;
+        }
+        
+
+        .nav-menu-visible{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                position: absolute;
+                /* top: 10vw; */
+                padding: 1.2vw;
+                margin-top: 20vw;
+              
+        }
+        .navbar-main{
+                gap: 5vw;
+        }
+
+}
+@media (max-width:580px) {
+        .logo-navbar img{
+                height: 14vw;
+        }
+        
+
+        .nav-menu-visible{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                position: absolute;
+                /* top: 10vw; */
+                padding: 1.2vw;
+                margin-top: 30vw;
+              
+        }
+        .navbar-main{
+                gap: 5vw;
+        }
+
+}

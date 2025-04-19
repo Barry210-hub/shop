@@ -1,0 +1,27 @@
+.boxes{
+    padding: 0.3vw 8vw;
+}
+.boxess{
+    display: flex;
+
+}
+.boxess p{
+    border: 1px solid rgba(86, 82, 82, 0.718) ;
+    border-bottom: 0px;
+    padding: 1vw 1.3vw;
+    font-size: small;
+}
+.box-exp{
+    margin-bottom: 2vw;
+}
+.border-right{
+ font-weight: bold;
+ font-size: small;
+   border-right: 0px;
+}
+.box-exp p{
+    border: 1px solid rgba(86, 82, 82, 0.718) ;
+    font-size: small;
+    padding: 2vw;
+    color:  rgb(76, 73, 73) ;
+}
